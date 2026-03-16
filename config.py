@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-SPORTS_API_KEY = os.getenv("SPORTS_API_KEY")
+STATS_API_KEY = os.getenv("STATS_API_KEY")
 ODDS_API_KEY = os.getenv("ODDS_API_KEY")
 STATS_URL = "https://v3.football.api-sports.io"
 ODDS_URL = "https://api.the-odds-api.com/v4/sports"
