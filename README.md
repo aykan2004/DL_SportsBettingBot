@@ -34,6 +34,20 @@ Create a `.env` file in the root directory and add your API keys:
 `SPORTS_API_KEY=your_key_here`
 `ODDS_API_KEY=your_key_here`
 
+## Nightly Automation (Local Deployment)
+
+To maintain the online learning loop, this bot is designed to run automatically every night at 2:00 AM to settle bets and retrain the model. If you are deploying this locally on a Unix-based system (macOS/Linux), you can set up the cron job by running:
+
+1. Open your terminal and access the crontab:
+   ```bash
+   env EDITOR=nano crontab -e
+   ```
+2. Add the following rule to the bottom of the file (replace with your absolute paths):
+   ```text
+   0 2 * * * cd /path/to/DL_SportsBettingBot && /path/to/python master.py >> /path/to/DL_SportsBettingBot/nightly_run.log 2>&1
+   ```
+This will silently execute the pipeline in the background and log all PyTorch training outputs to `nightly_run.log`. Do not shut down your PC or the script will not execute; instead just sleep your PC. You can use alternatives for other operating systems. Also, you can do this nightly automation on a cloud service instead of doing it locally. 
+
 ## Future Roadmap
 
 * **Feature Engineering:** Integrating deeper player-level statistics (e.g., key injuries, Expected Goals, star player) into the network's continuous input tensor. Also, will add an RNN model to better structure the team characteristics. 
