@@ -48,6 +48,10 @@ def build_core_model():
     fixture_conts = np.hstack((scaled_form, motivation))
     match_outcomes = df['result'].values
 
+    # --- NEW: DUMMY SEQUENCE FOR LSTM ---
+    # Shape: (Total Matches, 5 matches in history, 4 stats per match)
+    fixture_seqs = np.zeros((len(df), 5, 4))
+
     with open('mappings.json', 'w') as f:
         json.dump({
             'teams': club_vocab,
@@ -62,10 +66,12 @@ def build_core_model():
     split_idx = int(len(df) * 0.8)
 
     train_cats = torch.LongTensor(fixture_cats[:split_idx])
+    train_seqs = torch.FloatTensor(fixture_seqs[:split_idx])
     train_conts = torch.FloatTensor(fixture_conts[:split_idx])
     train_labels = torch.LongTensor(match_outcomes[:split_idx])
 
     test_cats = torch.LongTensor(fixture_cats[split_idx:])
+    test_seqs = torch.FloatTensor(fixture_seqs[split_idx:])
     test_conts = torch.FloatTensor(fixture_conts[split_idx:])
     test_labels = torch.LongTensor(match_outcomes[split_idx:])
 
@@ -79,7 +85,13 @@ def build_core_model():
         net.train()
         opt.zero_grad()
 
-        out = net(train_cats, train_conts)
+        h_idx = train_cats[:, 0]
+        a_idx = train_cats[:, 1]
+        c_idx = train_cats[:, 2]
+
+        # Forward pass with the sequence data added
+        out = net(h_idx, a_idx, c_idx, train_seqs, train_conts)
+
         loss = loss_fn(out, train_labels)
         loss.backward()
         opt.step()
@@ -89,7 +101,12 @@ def build_core_model():
 
     net.eval()
     with torch.no_grad():
-        val_out = net(test_cats, test_conts)
+        h_idx_test = test_cats[:, 0]
+        a_idx_test = test_cats[:, 1]
+        c_idx_test = test_cats[:, 2]
+
+        val_out = net(h_idx_test, a_idx_test, c_idx_test, test_seqs,
+                      test_conts)
         hits = (torch.argmax(val_out, dim=1) == test_labels).sum().item()
         print(
             f"Holdout Hit Rate (Chronological): {(hits / len(test_labels)) * 100:.1f}%")

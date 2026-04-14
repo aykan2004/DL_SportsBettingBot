@@ -7,9 +7,15 @@ import os
 from config import STATS_API_KEY, STATS_URL, HISTORY_FILE
 
 
-def get_match_result(home_id, away_id):
+def get_match_result(home_id, away_id, bet_date, bet_timestamp):
     headers = {'x-rapidapi-key': STATS_API_KEY}
-    params = {'team': home_id, 'last': 10}
+
+    target_date = bet_date[:10] if bet_date else ""
+
+    if target_date:
+        params = {'team': home_id, 'date': target_date}
+    else:
+        params = {'team': home_id, 'last': 15}
 
     try:
         response = requests.get(f"{STATS_URL}/fixtures", headers=headers,
@@ -21,8 +27,18 @@ def get_match_result(home_id, away_id):
 
     for fixture in data.get('response', []):
         if fixture['teams']['away']['id'] == away_id:
+            api_date = fixture['fixture']['date'][:10]
+
+            # If we don't have the exact match date, ensure we aren't grading
+            # based on an old H2H match that happened before we placed the bet!
+            if not target_date and bet_timestamp:
+                bet_day = bet_timestamp[:10]
+                if api_date < bet_day:
+                    continue  # Skip this historical match!
+
             status = fixture['fixture']['status']['short']
 
+            # Match is finished
             if status in ['FT', 'AET', 'PEN']:
                 h_g = fixture['goals']['home']
                 a_g = fixture['goals']['away']
@@ -32,9 +48,16 @@ def get_match_result(home_id, away_id):
                     return "Away"
                 else:
                     return "Draw"
+
+            # Match was cancelled or postponed
             elif status in ['CANC', 'PSTP', 'ABD']:
                 return "Void"
 
+            # Match has not started or is live
+            else:
+                return "Pending"
+
+    # If match not found, it stays pending
     return "Pending"
 
 
@@ -57,7 +80,12 @@ def run_settlement():
 
     for bet in history:
         if bet.get('status') == 'pending':
-            actual_result = get_match_result(bet['home_id'], bet['away_id'])
+            # Extract both date (if it exists) and timestamp to protect old bets
+            bet_date = bet.get('date', "")
+            bet_timestamp = bet.get('timestamp', "")
+
+            actual_result = get_match_result(bet['home_id'], bet['away_id'],
+                                             bet_date, bet_timestamp)
 
             if actual_result == "Pending":
                 continue

@@ -30,7 +30,7 @@ def filter_correlated_bets(candidates):
     return list(unique_bets.values())
 
 
-def generate_safe_slip():
+def generate_value_slip():
     # 1. System Initialization
     try:
         with open('mappings.json', 'r') as f:
@@ -47,13 +47,13 @@ def generate_safe_slip():
         print(f"[ERROR] Failed to load model or mappings: {e}")
         return
 
-    print("\n--- SAFE BET SLIP GENERATOR (5-Day Outlook) ---")
+    print("\n--- HIGH VALUE BET GENERATOR (5-Day Outlook) ---")
     candidates = []
 
     # 2. Data Gathering & Prediction
     for l_id, info in LEAGUE_MAP.items():
         season = get_current_season(l_id)
-        print(f"[INFO] Scanning {info['name']}...")
+        print(f"[INFO] Scanning {info['name']} for value anomalies...")
 
         fixtures = get_fixtures_next_5_days(l_id, season)
 
@@ -86,9 +86,8 @@ def generate_safe_slip():
                         if odds[i] <= 1.01: continue
                         ev = (probs[i] * odds[i]) - 1
 
-                        # Safe Bet Filters: >= 50% Win Prob, Odds between 1.20 and 3.50, +EV
-                        if probs[i] >= 0.50 and 1.20 <= odds[
-                            i] <= 3.50 and ev >= 0.05:
+                        # High Value Filters: >= 25% Win Prob, Odds >= 2.50, +EV >= 0.15
+                        if probs[i] >= 0.25 and odds[i] >= 2.50 and ev >= 0.15:
                             candidates.append({
                                 'h_name': h, 'a_name': a,
                                 'h_id': f['teams']['home']['id'],
@@ -102,24 +101,22 @@ def generate_safe_slip():
             time.sleep(0.1)
 
     # 3. Final Slip Output
+    # Difference from main_safe: Sorting by EV (Expected Value) instead of Model Probability
     candidates = filter_correlated_bets(candidates)
-    candidates.sort(key=lambda x: x['prob'], reverse=True)
+    candidates.sort(key=lambda x: x['ev'], reverse=True)
     final_slip = candidates[:10]
 
     print("-" * 50)
     if not final_slip:
-        print("[WARNING] No safe bets found in the current market.")
+        print("[WARNING] No high-value anomalies found in the current market.")
         return
 
     for idx, bet in enumerate(final_slip):
         print(f"[{idx + 1}] {bet['league']} | {bet['match']}")
-        print(
-            f"    Target: {bet['bet']} @ {bet['odds']:.2f} (Conf: {bet['prob']:.1f}% | EV: {bet['ev']:.1f}%)")
+        print(f"    Target: {bet['bet']} @ {bet['odds']:.2f} (EV: {bet['ev']:.1f}% | Conf: {bet['prob']:.1f}%)")
 
-    # 4. Nuclear Logging Menu
     while True:
-        choice_raw = input(
-            "\n[INPUT] Enter match # to log (or 'q' to quit): ").strip()
+        choice_raw = input("\n[INPUT] Enter match # to log (or 'q' to quit): ").strip()
         if choice_raw.lower() == 'q': break
 
         choice_clean = "".join(filter(str.isdigit, choice_raw))
@@ -128,29 +125,23 @@ def generate_safe_slip():
         idx = int(choice_clean) - 1
         if 0 <= idx < len(final_slip):
             selected = final_slip[idx]
-            print(
-                f"[ACTION] Targeting: {selected['match']} ({selected['bet']})")
+            print(f"[ACTION] Targeting: {selected['match']} ({selected['bet']})")
 
-            raw_stake = input(
-                "[INPUT] Enter stake (Press Enter for 10): ").strip()
+            raw_stake = input("[INPUT] Enter stake (Press Enter for 5): ").strip()
 
             if not raw_stake:
-                stake = 10.0
+                stake = 5.0
             else:
                 try:
-                    scrubbed = "".join(
-                        c for c in raw_stake if c.isdigit() or c == '.')
+                    scrubbed = "".join(c for c in raw_stake if c.isdigit() or c == '.')
                     stake = builtins.float(scrubbed)
                 except Exception:
-                    print(
-                        "[WARNING] System input error. Defaulting to $10.00.")
+                    print("[WARNING] System input error. Defaulting to $5.00.")
                     stake = 10.0
 
             save_bet_to_ledger(selected, stake)
 
-            if input(
-                "\n[INPUT] Log another bet? (y/n): ").strip().lower() != 'y': break
-
+            if input("\n[INPUT] Log another bet? (y/n): ").strip().lower() != 'y': break
 
 if __name__ == "__main__":
-    generate_safe_slip()
+    generate_value_slip()
