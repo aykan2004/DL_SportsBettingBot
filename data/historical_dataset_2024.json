@@ -1,0 +1,2842 @@
+[
+    {
+        "features": {
+            "h_id": 172,
+            "a_id": 163,
+            "l_id": 39,
+            "h_pts": 10.0,
+            "h_gd": 0.2,
+            "a_pts": 8.0,
+            "a_gd": 1.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            4.9,
+            4.4,
+            1.61
+        ],
+        "meta": "Newcastle vs Manchester City (2024-09-28)"
+    },
+    {
+        "features": {
+            "h_id": 18,
+            "a_id": 148,
+            "l_id": 39,
+            "h_pts": 8.0,
+            "h_gd": 1.0,
+            "a_pts": 4.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.2,
+            7.0,
+            14.0
+        ],
+        "meta": "Arsenal vs Leicester (2024-09-28)"
+    },
+    {
+        "features": {
+            "h_id": 80,
+            "a_id": 67,
+            "l_id": 39,
+            "h_pts": 5.0,
+            "h_gd": -1.8,
+            "a_pts": 4.0,
+            "a_gd": -0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.62,
+            3.52,
+            2.63
+        ],
+        "meta": "Everton vs Crystal Palace (2024-09-28)"
+    },
+    {
+        "features": {
+            "h_id": 50,
+            "a_id": 256,
+            "l_id": 39,
+            "h_pts": 6.0,
+            "h_gd": -0.4,
+            "a_pts": 7.0,
+            "a_gd": -0.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            2.16,
+            3.6,
+            3.22
+        ],
+        "meta": "Brentford vs West Ham (2024-09-28)"
+    },
+    {
+        "features": {
+            "h_id": 174,
+            "a_id": 107,
+            "l_id": 39,
+            "h_pts": 5.0,
+            "h_gd": 0.4,
+            "a_pts": 9.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.32,
+            3.45,
+            3.08
+        ],
+        "meta": "Nottingham Forest vs Fulham (2024-09-28)"
+    },
+    {
+        "features": {
+            "h_id": 129,
+            "a_id": 19,
+            "l_id": 39,
+            "h_pts": 7.0,
+            "h_gd": -1.0,
+            "a_pts": 9.0,
+            "a_gd": 0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            4.0,
+            3.85,
+            1.85
+        ],
+        "meta": "Ipswich vs Aston Villa (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 47,
+            "a_id": 226,
+            "l_id": 39,
+            "h_pts": 5.0,
+            "h_gd": -0.6,
+            "a_pts": 2.0,
+            "a_gd": -1.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.52,
+            4.75,
+            5.65
+        ],
+        "meta": "Bournemouth vs Southampton (2024-09-30)"
+    },
+    {
+        "features": {
+            "h_id": 67,
+            "a_id": 154,
+            "l_id": 39,
+            "h_pts": 4.0,
+            "h_gd": -0.6,
+            "a_pts": 9.0,
+            "a_gd": 1.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            5.5,
+            4.33,
+            1.57
+        ],
+        "meta": "Crystal Palace vs Liverpool (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 18,
+            "a_id": 226,
+            "l_id": 39,
+            "h_pts": 8.0,
+            "h_gd": 1.0,
+            "a_pts": 2.0,
+            "a_gd": -1.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.15,
+            7.5,
+            17.0
+        ],
+        "meta": "Arsenal vs Southampton (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 148,
+            "a_id": 47,
+            "l_id": 39,
+            "h_pts": 4.0,
+            "h_gd": -0.8,
+            "a_pts": 5.0,
+            "a_gd": -0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            3.25,
+            3.75,
+            2.05
+        ],
+        "meta": "Leicester vs Bournemouth (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 256,
+            "a_id": 129,
+            "l_id": 39,
+            "h_pts": 9.0,
+            "h_gd": -0.6,
+            "a_pts": 6.0,
+            "a_gd": -0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.91,
+            3.96,
+            4.03
+        ],
+        "meta": "West Ham vs Ipswich (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 163,
+            "a_id": 107,
+            "l_id": 39,
+            "h_pts": 10.0,
+            "h_gd": 1.2,
+            "a_pts": 10.0,
+            "a_gd": 0.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.25,
+            6.0,
+            11.0
+        ],
+        "meta": "Manchester City vs Fulham (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 80,
+            "a_id": 172,
+            "l_id": 39,
+            "h_pts": 7.0,
+            "h_gd": -1.0,
+            "a_pts": 7.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            3.36,
+            3.87,
+            2.13
+        ],
+        "meta": "Everton vs Newcastle (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 60,
+            "a_id": 174,
+            "l_id": 39,
+            "h_pts": 6.0,
+            "h_gd": 2.0,
+            "a_pts": 6.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.54,
+            4.68,
+            6.16
+        ],
+        "meta": "Chelsea vs Nottingham Forest (2024-10-06)"
+    },
+    {
+        "features": {
+            "h_id": 238,
+            "a_id": 256,
+            "l_id": 39,
+            "h_pts": 5.0,
+            "h_gd": 0.4,
+            "a_pts": 11.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.46,
+            5.3,
+            5.7
+        ],
+        "meta": "Tottenham vs West Ham (2024-10-19)"
+    },
+    {
+        "features": {
+            "h_id": 107,
+            "a_id": 19,
+            "l_id": 39,
+            "h_pts": 7.0,
+            "h_gd": 0.4,
+            "a_pts": 10.0,
+            "a_gd": 0.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.43,
+            3.5,
+            2.84
+        ],
+        "meta": "Fulham vs Aston Villa (2024-10-19)"
+    },
+    {
+        "features": {
+            "h_id": 226,
+            "a_id": 148,
+            "l_id": 39,
+            "h_pts": 1.0,
+            "h_gd": -1.8,
+            "a_pts": 7.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.21,
+            3.6,
+            3.38
+        ],
+        "meta": "Southampton vs Leicester (2024-10-19)"
+    },
+    {
+        "features": {
+            "h_id": 129,
+            "a_id": 80,
+            "l_id": 39,
+            "h_pts": 6.0,
+            "h_gd": -0.6,
+            "a_pts": 7.0,
+            "a_gd": -0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.38,
+            3.48,
+            3.13
+        ],
+        "meta": "Ipswich vs Everton (2024-10-19)"
+    },
+    {
+        "features": {
+            "h_id": 47,
+            "a_id": 18,
+            "l_id": 39,
+            "h_pts": 5.0,
+            "h_gd": -0.4,
+            "a_pts": 10.0,
+            "a_gd": 1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            5.09,
+            4.33,
+            1.67
+        ],
+        "meta": "Bournemouth vs Arsenal (2024-10-19)"
+    },
+    {
+        "features": {
+            "h_id": 154,
+            "a_id": 60,
+            "l_id": 39,
+            "h_pts": 7.0,
+            "h_gd": 1.4,
+            "a_pts": 5.0,
+            "a_gd": 1.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.6,
+            4.5,
+            5.0
+        ],
+        "meta": "Liverpool vs Chelsea (2024-10-20)"
+    },
+    {
+        "features": {
+            "h_id": 174,
+            "a_id": 67,
+            "l_id": 39,
+            "h_pts": 8.0,
+            "h_gd": 0.0,
+            "a_pts": 4.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.3,
+            3.25,
+            3.2
+        ],
+        "meta": "Nottingham Forest vs Crystal Palace (2024-10-21)"
+    },
+    {
+        "features": {
+            "h_id": 148,
+            "a_id": 174,
+            "l_id": 39,
+            "h_pts": 7.0,
+            "h_gd": 0.0,
+            "a_pts": 11.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            3.0,
+            3.4,
+            2.3
+        ],
+        "meta": "Leicester vs Nottingham Forest (2024-10-25)"
+    },
+    {
+        "features": {
+            "h_id": 163,
+            "a_id": 226,
+            "l_id": 39,
+            "h_pts": 10.0,
+            "h_gd": 0.6,
+            "a_pts": 2.0,
+            "a_gd": -1.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.15,
+            9.95,
+            17.5
+        ],
+        "meta": "Manchester City vs Southampton (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 50,
+            "a_id": 129,
+            "l_id": 39,
+            "h_pts": 3.0,
+            "h_gd": -0.4,
+            "a_pts": 7.0,
+            "a_gd": -1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.6,
+            4.33,
+            5.0
+        ],
+        "meta": "Brentford vs Ipswich (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 19,
+            "a_id": 47,
+            "l_id": 39,
+            "h_pts": 10.0,
+            "h_gd": 1.0,
+            "a_pts": 7.0,
+            "a_gd": -0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.83,
+            3.8,
+            4.0
+        ],
+        "meta": "Aston Villa vs Bournemouth (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 80,
+            "a_id": 107,
+            "l_id": 39,
+            "h_pts": 7.0,
+            "h_gd": 0.4,
+            "a_pts": 5.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            2.71,
+            3.48,
+            2.7
+        ],
+        "meta": "Everton vs Fulham (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 60,
+            "a_id": 172,
+            "l_id": 39,
+            "h_pts": 5.0,
+            "h_gd": 1.0,
+            "a_pts": 5.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.69,
+            4.3,
+            4.0
+        ],
+        "meta": "Chelsea vs Newcastle (2024-10-27)"
+    },
+    {
+        "features": {
+            "h_id": 67,
+            "a_id": 238,
+            "l_id": 39,
+            "h_pts": 1.0,
+            "h_gd": -0.6,
+            "a_pts": 8.0,
+            "a_gd": 1.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            4.0,
+            3.8,
+            1.83
+        ],
+        "meta": "Crystal Palace vs Tottenham (2024-10-27)"
+    },
+    {
+        "features": {
+            "h_id": 18,
+            "a_id": 154,
+            "l_id": 39,
+            "h_pts": 10.0,
+            "h_gd": 0.6,
+            "a_pts": 9.0,
+            "a_gd": 1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            2.29,
+            3.24,
+            3.08
+        ],
+        "meta": "Arsenal vs Liverpool (2024-10-27)"
+    },
+    {
+        "features": {
+            "h_id": 121,
+            "a_id": 41,
+            "l_id": 203,
+            "h_pts": 4.0,
+            "h_gd": -1.0,
+            "a_pts": 5.0,
+            "a_gd": -1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.5,
+            2.88,
+            3.0
+        ],
+        "meta": "Hatayspor vs Bodrum FK (2024-09-20)"
+    },
+    {
+        "features": {
+            "h_id": 139,
+            "a_id": 223,
+            "l_id": 203,
+            "h_pts": 3.0,
+            "h_gd": -0.2,
+            "a_pts": 5.0,
+            "a_gd": -0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.85,
+            3.4,
+            4.0
+        ],
+        "meta": "Konyaspor vs Sivasspor (2024-09-21)"
+    },
+    {
+        "features": {
+            "h_id": 99,
+            "a_id": 109,
+            "l_id": 203,
+            "h_pts": 11.0,
+            "h_gd": 2.2,
+            "a_pts": 11.0,
+            "a_gd": 2.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.17,
+            3.6,
+            3.2
+        ],
+        "meta": "Fenerbah\u00e7e vs Galatasaray (2024-09-21)"
+    },
+    {
+        "features": {
+            "h_id": 135,
+            "a_id": 14,
+            "l_id": 203,
+            "h_pts": 6.0,
+            "h_gd": -0.4,
+            "a_pts": 6.0,
+            "a_gd": -0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.91,
+            3.6,
+            3.5
+        ],
+        "meta": "Kas\u0131mpa\u015fa vs Antalyaspor (2024-09-22)"
+    },
+    {
+        "features": {
+            "h_id": 203,
+            "a_id": 210,
+            "l_id": 203,
+            "h_pts": 3.0,
+            "h_gd": -2.0,
+            "a_pts": 7.0,
+            "a_gd": 0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.78,
+            3.25,
+            2.5
+        ],
+        "meta": "Rizespor vs Samsunspor (2024-09-22)"
+    },
+    {
+        "features": {
+            "h_id": 7,
+            "a_id": 10,
+            "l_id": 203,
+            "h_pts": 5.0,
+            "h_gd": -1.4,
+            "a_pts": 0.0,
+            "a_gd": -1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            3.0,
+            3.4,
+            2.2
+        ],
+        "meta": "Adana Demirspor vs Alanyaspor (2024-09-22)"
+    },
+    {
+        "features": {
+            "h_id": 223,
+            "a_id": 37,
+            "l_id": 203,
+            "h_pts": 8.0,
+            "h_gd": -0.2,
+            "a_pts": 10.0,
+            "a_gd": 0.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.98,
+            3.24,
+            2.57
+        ],
+        "meta": "Sivasspor vs Ba\u015fak\u015fehir (2024-09-27)"
+    },
+    {
+        "features": {
+            "h_id": 210,
+            "a_id": 116,
+            "l_id": 203,
+            "h_pts": 7.0,
+            "h_gd": 1.2,
+            "a_pts": 12.0,
+            "a_gd": 1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.05,
+            3.2,
+            3.6
+        ],
+        "meta": "Samsunspor vs G\u00f6ztepe (2024-09-28)"
+    },
+    {
+        "features": {
+            "h_id": 109,
+            "a_id": 135,
+            "l_id": 203,
+            "h_pts": 9.0,
+            "h_gd": 2.8,
+            "a_pts": 5.0,
+            "a_gd": -0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.32,
+            5.97,
+            8.63
+        ],
+        "meta": "Galatasaray vs Kas\u0131mpa\u015fa (2024-09-28)"
+    },
+    {
+        "features": {
+            "h_id": 10,
+            "a_id": 203,
+            "l_id": 203,
+            "h_pts": 1.0,
+            "h_gd": -0.6,
+            "a_pts": 4.0,
+            "a_gd": -2.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.02,
+            3.5,
+            3.75
+        ],
+        "meta": "Alanyaspor vs Rizespor (2024-09-28)"
+    },
+    {
+        "features": {
+            "h_id": 240,
+            "a_id": 139,
+            "l_id": 203,
+            "h_pts": 9.0,
+            "h_gd": 0.0,
+            "a_pts": 2.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.97,
+            3.38,
+            4.32
+        ],
+        "meta": "Trabzonspor vs Konyaspor (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 14,
+            "a_id": 99,
+            "l_id": 203,
+            "h_pts": 9.0,
+            "h_gd": -0.6,
+            "a_pts": 9.0,
+            "a_gd": 1.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            7.25,
+            5.0,
+            1.4
+        ],
+        "meta": "Antalyaspor vs Fenerbah\u00e7e (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 41,
+            "a_id": 7,
+            "l_id": 203,
+            "h_pts": 5.0,
+            "h_gd": -0.6,
+            "a_pts": 6.0,
+            "a_gd": -1.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.85,
+            3.75,
+            4.2
+        ],
+        "meta": "Bodrum FK vs Adana Demirspor (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 136,
+            "a_id": 39,
+            "l_id": 203,
+            "h_pts": 7.0,
+            "h_gd": -0.8,
+            "a_pts": 13.0,
+            "a_gd": 1.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            5.0,
+            4.28,
+            1.66
+        ],
+        "meta": "Kayserispor vs Be\u015fikta\u015f (2024-09-30)"
+    },
+    {
+        "features": {
+            "h_id": 203,
+            "a_id": 14,
+            "l_id": 203,
+            "h_pts": 3.0,
+            "h_gd": -2.6,
+            "a_pts": 10.0,
+            "a_gd": -0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.77,
+            3.79,
+            4.85
+        ],
+        "meta": "Rizespor vs Antalyaspor (2024-10-04)"
+    },
+    {
+        "features": {
+            "h_id": 135,
+            "a_id": 41,
+            "l_id": 203,
+            "h_pts": 5.0,
+            "h_gd": -0.2,
+            "a_pts": 8.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.92,
+            3.44,
+            4.5
+        ],
+        "meta": "Kas\u0131mpa\u015fa vs Bodrum FK (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 116,
+            "a_id": 223,
+            "l_id": 203,
+            "h_pts": 9.0,
+            "h_gd": 0.8,
+            "a_pts": 8.0,
+            "a_gd": -0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.57,
+            3.8,
+            5.5
+        ],
+        "meta": "G\u00f6ztepe vs Sivasspor (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 37,
+            "a_id": 136,
+            "l_id": 203,
+            "h_pts": 8.0,
+            "h_gd": 1.0,
+            "a_pts": 7.0,
+            "a_gd": -1.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.8,
+            3.75,
+            4.4
+        ],
+        "meta": "Ba\u015fak\u015fehir vs Kayserispor (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 121,
+            "a_id": 240,
+            "l_id": 203,
+            "h_pts": 5.0,
+            "h_gd": -1.0,
+            "a_pts": 9.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            3.0,
+            3.3,
+            2.4
+        ],
+        "meta": "Hatayspor vs Trabzonspor (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 139,
+            "a_id": 81,
+            "l_id": 203,
+            "h_pts": 1.0,
+            "h_gd": -0.4,
+            "a_pts": 7.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.3,
+            3.2,
+            3.0
+        ],
+        "meta": "Konyaspor vs Ey\u00fcpspor (2024-10-06)"
+    },
+    {
+        "features": {
+            "h_id": 7,
+            "a_id": 210,
+            "l_id": 203,
+            "h_pts": 5.0,
+            "h_gd": -1.8,
+            "a_pts": 9.0,
+            "a_gd": 1.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            4.65,
+            3.88,
+            1.78
+        ],
+        "meta": "Adana Demirspor vs Samsunspor (2024-10-06)"
+    },
+    {
+        "features": {
+            "h_id": 109,
+            "a_id": 10,
+            "l_id": 203,
+            "h_pts": 8.0,
+            "h_gd": 2.6,
+            "a_pts": 4.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.35,
+            5.7,
+            8.16
+        ],
+        "meta": "Galatasaray vs Alanyaspor (2024-10-06)"
+    },
+    {
+        "features": {
+            "h_id": 240,
+            "a_id": 37,
+            "l_id": 203,
+            "h_pts": 9.0,
+            "h_gd": 0.2,
+            "a_pts": 5.0,
+            "a_gd": 0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.07,
+            3.4,
+            3.89
+        ],
+        "meta": "Trabzonspor vs Ba\u015fak\u015fehir (2024-10-19)"
+    },
+    {
+        "features": {
+            "h_id": 14,
+            "a_id": 109,
+            "l_id": 203,
+            "h_pts": 7.0,
+            "h_gd": -1.0,
+            "a_pts": 10.0,
+            "a_gd": 2.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            5.5,
+            4.33,
+            1.5
+        ],
+        "meta": "Antalyaspor vs Galatasaray (2024-10-19)"
+    },
+    {
+        "features": {
+            "h_id": 81,
+            "a_id": 116,
+            "l_id": 203,
+            "h_pts": 6.0,
+            "h_gd": -0.2,
+            "a_pts": 12.0,
+            "a_gd": 1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.23,
+            3.42,
+            3.42
+        ],
+        "meta": "Ey\u00fcpspor vs G\u00f6ztepe (2024-10-19)"
+    },
+    {
+        "features": {
+            "h_id": 223,
+            "a_id": 121,
+            "l_id": 203,
+            "h_pts": 7.0,
+            "h_gd": -0.6,
+            "a_pts": 5.0,
+            "a_gd": -1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.25,
+            3.0,
+            3.2
+        ],
+        "meta": "Sivasspor vs Hatayspor (2024-10-20)"
+    },
+    {
+        "features": {
+            "h_id": 39,
+            "a_id": 139,
+            "l_id": 203,
+            "h_pts": 13.0,
+            "h_gd": 1.2,
+            "a_pts": 4.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.47,
+            4.0,
+            6.5
+        ],
+        "meta": "Be\u015fikta\u015f vs Konyaspor (2024-10-20)"
+    },
+    {
+        "features": {
+            "h_id": 10,
+            "a_id": 135,
+            "l_id": 203,
+            "h_pts": 4.0,
+            "h_gd": -0.2,
+            "a_pts": 5.0,
+            "a_gd": -0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.5,
+            3.25,
+            2.62
+        ],
+        "meta": "Alanyaspor vs Kas\u0131mpa\u015fa (2024-10-20)"
+    },
+    {
+        "features": {
+            "h_id": 210,
+            "a_id": 99,
+            "l_id": 203,
+            "h_pts": 9.0,
+            "h_gd": 1.0,
+            "a_pts": 7.0,
+            "a_gd": 2.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            4.24,
+            3.52,
+            1.94
+        ],
+        "meta": "Samsunspor vs Fenerbah\u00e7e (2024-10-20)"
+    },
+    {
+        "features": {
+            "h_id": 41,
+            "a_id": 203,
+            "l_id": 203,
+            "h_pts": 8.0,
+            "h_gd": 0.0,
+            "a_pts": 5.0,
+            "a_gd": -1.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.43,
+            3.18,
+            3.25
+        ],
+        "meta": "Bodrum FK vs Rizespor (2024-10-21)"
+    },
+    {
+        "features": {
+            "h_id": 7,
+            "a_id": 223,
+            "l_id": 203,
+            "h_pts": 3.0,
+            "h_gd": -2.2,
+            "a_pts": 10.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.8,
+            3.5,
+            2.45
+        ],
+        "meta": "Adana Demirspor vs Sivasspor (2024-10-25)"
+    },
+    {
+        "features": {
+            "h_id": 121,
+            "a_id": 136,
+            "l_id": 203,
+            "h_pts": 5.0,
+            "h_gd": -1.0,
+            "a_pts": 7.0,
+            "a_gd": -1.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.22,
+            3.6,
+            3.06
+        ],
+        "meta": "Hatayspor vs Kayserispor (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 135,
+            "a_id": 210,
+            "l_id": 203,
+            "h_pts": 5.0,
+            "h_gd": -0.2,
+            "a_pts": 8.0,
+            "a_gd": 1.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.15,
+            3.4,
+            3.4
+        ],
+        "meta": "Kas\u0131mpa\u015fa vs Samsunspor (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 116,
+            "a_id": 240,
+            "l_id": 203,
+            "h_pts": 9.0,
+            "h_gd": 0.8,
+            "a_pts": 12.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.3,
+            3.4,
+            2.88
+        ],
+        "meta": "G\u00f6ztepe vs Trabzonspor (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 10,
+            "a_id": 14,
+            "l_id": 203,
+            "h_pts": 5.0,
+            "h_gd": 0.2,
+            "a_pts": 8.0,
+            "a_gd": -1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.05,
+            3.4,
+            3.4
+        ],
+        "meta": "Alanyaspor vs Antalyaspor (2024-10-27)"
+    },
+    {
+        "features": {
+            "h_id": 99,
+            "a_id": 41,
+            "l_id": 203,
+            "h_pts": 9.0,
+            "h_gd": 1.0,
+            "a_pts": 9.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.28,
+            5.75,
+            11.0
+        ],
+        "meta": "Fenerbah\u00e7e vs Bodrum FK (2024-10-27)"
+    },
+    {
+        "features": {
+            "h_id": 37,
+            "a_id": 81,
+            "l_id": 203,
+            "h_pts": 2.0,
+            "h_gd": -0.2,
+            "a_pts": 9.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            2.1,
+            3.48,
+            3.69
+        ],
+        "meta": "Ba\u015fak\u015fehir vs Ey\u00fcpspor (2024-10-28)"
+    },
+    {
+        "features": {
+            "h_id": 109,
+            "a_id": 39,
+            "l_id": 203,
+            "h_pts": 8.0,
+            "h_gd": 1.6,
+            "a_pts": 13.0,
+            "a_gd": 1.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.77,
+            4.0,
+            3.9
+        ],
+        "meta": "Galatasaray vs Be\u015fikta\u015f (2024-10-28)"
+    },
+    {
+        "features": {
+            "h_id": 45,
+            "a_id": 105,
+            "l_id": 71,
+            "h_pts": 8.0,
+            "h_gd": 0.4,
+            "a_pts": 11.0,
+            "a_gd": 1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.67,
+            3.82,
+            5.25
+        ],
+        "meta": "Botafogo vs Fortaleza EC (2024-09-01)"
+    },
+    {
+        "features": {
+            "h_id": 115,
+            "a_id": 25,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": 0.8,
+            "a_pts": 7.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.2,
+            3.0,
+            3.5
+        ],
+        "meta": "Gremio vs Atletico-MG (2024-09-01)"
+    },
+    {
+        "features": {
+            "h_id": 66,
+            "a_id": 22,
+            "l_id": 71,
+            "h_pts": 4.0,
+            "h_gd": -0.4,
+            "a_pts": 7.0,
+            "a_gd": -0.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.65,
+            3.5,
+            5.5
+        ],
+        "meta": "Cruzeiro vs Atletico Goianiense (2024-09-01)"
+    },
+    {
+        "features": {
+            "h_id": 62,
+            "a_id": 102,
+            "l_id": 71,
+            "h_pts": 3.0,
+            "h_gd": -0.4,
+            "a_pts": 6.0,
+            "a_gd": -0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.62,
+            3.06,
+            2.89
+        ],
+        "meta": "Corinthians vs Flamengo (2024-09-01)"
+    },
+    {
+        "features": {
+            "h_id": 104,
+            "a_id": 212,
+            "l_id": 71,
+            "h_pts": 5.0,
+            "h_gd": 0.4,
+            "a_pts": 9.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.5,
+            2.88,
+            3.2
+        ],
+        "meta": "Fluminense vs Sao Paulo (2024-09-01)"
+    },
+    {
+        "features": {
+            "h_id": 24,
+            "a_id": 182,
+            "l_id": 71,
+            "h_pts": 6.0,
+            "h_gd": -0.6,
+            "a_pts": 13.0,
+            "a_gd": 0.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            3.2,
+            3.4,
+            2.2
+        ],
+        "meta": "Atletico Paranaense vs Palmeiras (2024-09-01)"
+    },
+    {
+        "features": {
+            "h_id": 254,
+            "a_id": 248,
+            "l_id": 71,
+            "h_pts": 4.0,
+            "h_gd": 0.0,
+            "a_pts": 9.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.33,
+            3.24,
+            3.19
+        ],
+        "meta": "Vitoria vs Vasco DA Gama (2024-09-01)"
+    },
+    {
+        "features": {
+            "h_id": 131,
+            "a_id": 128,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": 0.0,
+            "a_pts": 9.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            3.2,
+            3.25,
+            2.25
+        ],
+        "meta": "Juventude vs Internacional (2024-09-01)"
+    },
+    {
+        "features": {
+            "h_id": 193,
+            "a_id": 29,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": -0.6,
+            "a_pts": 4.0,
+            "a_gd": 0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.3,
+            3.4,
+            3.0
+        ],
+        "meta": "RB Bragantino vs Bahia (2024-09-01)"
+    },
+    {
+        "features": {
+            "h_id": 68,
+            "a_id": 131,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": -1.4,
+            "a_pts": 5.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.95,
+            3.4,
+            3.75
+        ],
+        "meta": "Cuiaba vs Juventude (2024-09-05)"
+    },
+    {
+        "features": {
+            "h_id": 128,
+            "a_id": 105,
+            "l_id": 71,
+            "h_pts": 10.0,
+            "h_gd": 0.6,
+            "a_pts": 8.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.07,
+            3.26,
+            4.02
+        ],
+        "meta": "Internacional vs Fortaleza EC (2024-09-11)"
+    },
+    {
+        "features": {
+            "h_id": 22,
+            "a_id": 254,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": -0.8,
+            "a_pts": 4.0,
+            "a_gd": -0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.0,
+            3.25,
+            3.75
+        ],
+        "meta": "Atletico Goianiense vs Vitoria (2024-09-14)"
+    },
+    {
+        "features": {
+            "h_id": 24,
+            "a_id": 105,
+            "l_id": 71,
+            "h_pts": 6.0,
+            "h_gd": -1.2,
+            "a_pts": 7.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            2.21,
+            3.32,
+            3.36
+        ],
+        "meta": "Atletico Paranaense vs Fortaleza EC (2024-09-14)"
+    },
+    {
+        "features": {
+            "h_id": 45,
+            "a_id": 62,
+            "l_id": 71,
+            "h_pts": 10.0,
+            "h_gd": 1.4,
+            "a_pts": 6.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.57,
+            3.96,
+            6.15
+        ],
+        "meta": "Botafogo vs Corinthians (2024-09-15)"
+    },
+    {
+        "features": {
+            "h_id": 182,
+            "a_id": 65,
+            "l_id": 71,
+            "h_pts": 13.0,
+            "h_gd": 1.6,
+            "a_pts": 4.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.25,
+            5.5,
+            11.0
+        ],
+        "meta": "Palmeiras vs Criciuma (2024-09-15)"
+    },
+    {
+        "features": {
+            "h_id": 131,
+            "a_id": 104,
+            "l_id": 71,
+            "h_pts": 5.0,
+            "h_gd": -0.6,
+            "a_pts": 7.0,
+            "a_gd": 0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.75,
+            3.2,
+            2.6
+        ],
+        "meta": "Juventude vs Fluminense (2024-09-15)"
+    },
+    {
+        "features": {
+            "h_id": 193,
+            "a_id": 115,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": -0.4,
+            "a_pts": 5.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            2.15,
+            3.4,
+            3.25
+        ],
+        "meta": "RB Bragantino vs Gremio (2024-09-15)"
+    },
+    {
+        "features": {
+            "h_id": 29,
+            "a_id": 25,
+            "l_id": 71,
+            "h_pts": 4.0,
+            "h_gd": 0.4,
+            "a_pts": 5.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.95,
+            3.4,
+            3.75
+        ],
+        "meta": "Bahia vs Atletico-MG (2024-09-15)"
+    },
+    {
+        "features": {
+            "h_id": 102,
+            "a_id": 248,
+            "l_id": 71,
+            "h_pts": 3.0,
+            "h_gd": -0.8,
+            "a_pts": 10.0,
+            "a_gd": 0.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.7,
+            3.75,
+            4.5
+        ],
+        "meta": "Flamengo vs Vasco DA Gama (2024-09-15)"
+    },
+    {
+        "features": {
+            "h_id": 66,
+            "a_id": 212,
+            "l_id": 71,
+            "h_pts": 6.0,
+            "h_gd": 0.2,
+            "a_pts": 9.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            1.95,
+            3.2,
+            4.0
+        ],
+        "meta": "Cruzeiro vs Sao Paulo (2024-09-15)"
+    },
+    {
+        "features": {
+            "h_id": 128,
+            "a_id": 68,
+            "l_id": 71,
+            "h_pts": 10.0,
+            "h_gd": 0.6,
+            "a_pts": 7.0,
+            "a_gd": -1.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.52,
+            3.85,
+            7.3
+        ],
+        "meta": "Internacional vs Cuiaba (2024-09-16)"
+    },
+    {
+        "features": {
+            "h_id": 62,
+            "a_id": 22,
+            "l_id": 71,
+            "h_pts": 6.0,
+            "h_gd": -0.2,
+            "a_pts": 7.0,
+            "a_gd": -0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.62,
+            3.84,
+            5.75
+        ],
+        "meta": "Corinthians vs Atletico Goianiense (2024-09-21)"
+    },
+    {
+        "features": {
+            "h_id": 254,
+            "a_id": 131,
+            "l_id": 71,
+            "h_pts": 2.0,
+            "h_gd": -0.4,
+            "a_pts": 8.0,
+            "a_gd": -0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.95,
+            3.25,
+            4.0
+        ],
+        "meta": "Vitoria vs Juventude (2024-09-21)"
+    },
+    {
+        "features": {
+            "h_id": 104,
+            "a_id": 45,
+            "l_id": 71,
+            "h_pts": 4.0,
+            "h_gd": 0.2,
+            "a_pts": 12.0,
+            "a_gd": 1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            3.24,
+            3.22,
+            2.31
+        ],
+        "meta": "Fluminense vs Botafogo (2024-09-21)"
+    },
+    {
+        "features": {
+            "h_id": 105,
+            "a_id": 29,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": -0.2,
+            "a_pts": 7.0,
+            "a_gd": 1.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.45,
+            3.24,
+            2.99
+        ],
+        "meta": "Fortaleza EC vs Bahia (2024-09-22)"
+    },
+    {
+        "features": {
+            "h_id": 248,
+            "a_id": 182,
+            "l_id": 71,
+            "h_pts": 13.0,
+            "h_gd": 0.8,
+            "a_pts": 13.0,
+            "a_gd": 2.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            4.29,
+            3.84,
+            1.79
+        ],
+        "meta": "Vasco DA Gama vs Palmeiras (2024-09-22)"
+    },
+    {
+        "features": {
+            "h_id": 25,
+            "a_id": 193,
+            "l_id": 71,
+            "h_pts": 5.0,
+            "h_gd": -0.8,
+            "a_pts": 4.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.25,
+            3.3,
+            3.31
+        ],
+        "meta": "Atletico-MG vs RB Bragantino (2024-09-22)"
+    },
+    {
+        "features": {
+            "h_id": 212,
+            "a_id": 128,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": 0.0,
+            "a_pts": 13.0,
+            "a_gd": 1.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.88,
+            2.93,
+            2.73
+        ],
+        "meta": "Sao Paulo vs Internacional (2024-09-22)"
+    },
+    {
+        "features": {
+            "h_id": 115,
+            "a_id": 102,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": 0.0,
+            "a_pts": 3.0,
+            "a_gd": -0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.8,
+            3.5,
+            4.5
+        ],
+        "meta": "Gremio vs Flamengo (2024-09-22)"
+    },
+    {
+        "features": {
+            "h_id": 68,
+            "a_id": 66,
+            "l_id": 71,
+            "h_pts": 6.0,
+            "h_gd": -1.4,
+            "a_pts": 7.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            2.99,
+            2.99,
+            2.61
+        ],
+        "meta": "Cuiaba vs Cruzeiro (2024-09-22)"
+    },
+    {
+        "features": {
+            "h_id": 115,
+            "a_id": 65,
+            "l_id": 71,
+            "h_pts": 9.0,
+            "h_gd": -0.2,
+            "a_pts": 4.0,
+            "a_gd": -1.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            1.71,
+            3.89,
+            5.16
+        ],
+        "meta": "Gremio vs Criciuma (2024-09-25)"
+    },
+    {
+        "features": {
+            "h_id": 193,
+            "a_id": 128,
+            "l_id": 71,
+            "h_pts": 3.0,
+            "h_gd": -0.8,
+            "a_pts": 11.0,
+            "a_gd": 1.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            2.94,
+            3.08,
+            2.57
+        ],
+        "meta": "RB Bragantino vs Internacional (2024-09-25)"
+    },
+    {
+        "features": {
+            "h_id": 182,
+            "a_id": 25,
+            "l_id": 71,
+            "h_pts": 11.0,
+            "h_gd": 2.8,
+            "a_pts": 5.0,
+            "a_gd": -0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.53,
+            3.8,
+            6.5
+        ],
+        "meta": "Palmeiras vs Atletico-MG (2024-09-28)"
+    },
+    {
+        "features": {
+            "h_id": 45,
+            "a_id": 115,
+            "l_id": 71,
+            "h_pts": 13.0,
+            "h_gd": 1.4,
+            "a_pts": 9.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.57,
+            4.0,
+            5.5
+        ],
+        "meta": "Botafogo vs Gremio (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 131,
+            "a_id": 193,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": -0.6,
+            "a_pts": 3.0,
+            "a_gd": -0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            2.6,
+            3.2,
+            2.75
+        ],
+        "meta": "Juventude vs RB Bragantino (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 212,
+            "a_id": 62,
+            "l_id": 71,
+            "h_pts": 5.0,
+            "h_gd": -0.6,
+            "a_pts": 9.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.4,
+            3.0,
+            3.2
+        ],
+        "meta": "Sao Paulo vs Corinthians (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 22,
+            "a_id": 104,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": -1.0,
+            "a_pts": 5.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.6,
+            3.0,
+            2.8
+        ],
+        "meta": "Atletico Goianiense vs Fluminense (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 105,
+            "a_id": 68,
+            "l_id": 71,
+            "h_pts": 9.0,
+            "h_gd": 0.2,
+            "a_pts": 3.0,
+            "a_gd": -1.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.7,
+            3.6,
+            5.0
+        ],
+        "meta": "Fortaleza EC vs Cuiaba (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 29,
+            "a_id": 65,
+            "l_id": 71,
+            "h_pts": 4.0,
+            "h_gd": 0.2,
+            "a_pts": 4.0,
+            "a_gd": -0.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.53,
+            4.0,
+            6.0
+        ],
+        "meta": "Bahia vs Criciuma (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 128,
+            "a_id": 254,
+            "l_id": 71,
+            "h_pts": 11.0,
+            "h_gd": 1.6,
+            "a_pts": 5.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.36,
+            4.5,
+            8.5
+        ],
+        "meta": "Internacional vs Vitoria (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 66,
+            "a_id": 248,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": 0.0,
+            "a_pts": 11.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.75,
+            3.5,
+            5.0
+        ],
+        "meta": "Cruzeiro vs Vasco DA Gama (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 102,
+            "a_id": 24,
+            "l_id": 71,
+            "h_pts": 3.0,
+            "h_gd": -0.8,
+            "a_pts": 5.0,
+            "a_gd": -0.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.7,
+            3.6,
+            5.0
+        ],
+        "meta": "Flamengo vs Atletico Paranaense (2024-09-29)"
+    },
+    {
+        "features": {
+            "h_id": 65,
+            "a_id": 22,
+            "l_id": 71,
+            "h_pts": 1.0,
+            "h_gd": -1.2,
+            "a_pts": 7.0,
+            "a_gd": -1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.92,
+            3.3,
+            4.41
+        ],
+        "meta": "Criciuma vs Atletico Goianiense (2024-10-03)"
+    },
+    {
+        "features": {
+            "h_id": 104,
+            "a_id": 66,
+            "l_id": 71,
+            "h_pts": 5.0,
+            "h_gd": 0.2,
+            "a_pts": 7.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.38,
+            3.0,
+            3.25
+        ],
+        "meta": "Fluminense vs Cruzeiro (2024-10-04)"
+    },
+    {
+        "features": {
+            "h_id": 115,
+            "a_id": 105,
+            "l_id": 71,
+            "h_pts": 11.0,
+            "h_gd": -0.2,
+            "a_pts": 9.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.1,
+            3.4,
+            3.4
+        ],
+        "meta": "Gremio vs Fortaleza EC (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 24,
+            "a_id": 45,
+            "l_id": 71,
+            "h_pts": 4.0,
+            "h_gd": -0.8,
+            "a_pts": 10.0,
+            "a_gd": 0.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            3.19,
+            3.4,
+            2.25
+        ],
+        "meta": "Atletico Paranaense vs Botafogo (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 193,
+            "a_id": 182,
+            "l_id": 71,
+            "h_pts": 6.0,
+            "h_gd": -0.4,
+            "a_pts": 11.0,
+            "a_gd": 2.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            4.0,
+            3.6,
+            1.85
+        ],
+        "meta": "RB Bragantino vs Palmeiras (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 25,
+            "a_id": 254,
+            "l_id": 71,
+            "h_pts": 5.0,
+            "h_gd": -0.4,
+            "a_pts": 5.0,
+            "a_gd": -0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.65,
+            3.6,
+            5.5
+        ],
+        "meta": "Atletico-MG vs Vitoria (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 29,
+            "a_id": 102,
+            "l_id": 71,
+            "h_pts": 6.0,
+            "h_gd": 0.0,
+            "a_pts": 6.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            2.76,
+            3.3,
+            2.57
+        ],
+        "meta": "Bahia vs Flamengo (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 62,
+            "a_id": 128,
+            "l_id": 71,
+            "h_pts": 6.0,
+            "h_gd": 0.0,
+            "a_pts": 13.0,
+            "a_gd": 1.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            2.4,
+            3.08,
+            3.24
+        ],
+        "meta": "Corinthians vs Internacional (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 68,
+            "a_id": 212,
+            "l_id": 71,
+            "h_pts": 3.0,
+            "h_gd": -0.6,
+            "a_pts": 8.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            3.5,
+            2.74,
+            2.49
+        ],
+        "meta": "Cuiaba vs Sao Paulo (2024-10-05)"
+    },
+    {
+        "features": {
+            "h_id": 248,
+            "a_id": 131,
+            "l_id": 71,
+            "h_pts": 11.0,
+            "h_gd": 0.2,
+            "a_pts": 7.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.73,
+            3.5,
+            5.0
+        ],
+        "meta": "Vasco DA Gama vs Juventude (2024-10-06)"
+    },
+    {
+        "features": {
+            "h_id": 25,
+            "a_id": 115,
+            "l_id": 71,
+            "h_pts": 4.0,
+            "h_gd": 0.0,
+            "a_pts": 13.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.95,
+            3.25,
+            4.0
+        ],
+        "meta": "Atletico-MG vs Gremio (2024-10-09)"
+    },
+    {
+        "features": {
+            "h_id": 212,
+            "a_id": 248,
+            "l_id": 71,
+            "h_pts": 5.0,
+            "h_gd": -0.6,
+            "a_pts": 8.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.73,
+            3.4,
+            5.0
+        ],
+        "meta": "Sao Paulo vs Vasco DA Gama (2024-10-17)"
+    },
+    {
+        "features": {
+            "h_id": 105,
+            "a_id": 25,
+            "l_id": 71,
+            "h_pts": 9.0,
+            "h_gd": 0.2,
+            "a_pts": 6.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.61,
+            3.5,
+            6.0
+        ],
+        "meta": "Fortaleza EC vs Atletico-MG (2024-10-17)"
+    },
+    {
+        "features": {
+            "h_id": 102,
+            "a_id": 104,
+            "l_id": 71,
+            "h_pts": 4.0,
+            "h_gd": 0.2,
+            "a_pts": 7.0,
+            "a_gd": 0.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            1.73,
+            3.25,
+            5.5
+        ],
+        "meta": "Flamengo vs Fluminense (2024-10-17)"
+    },
+    {
+        "features": {
+            "h_id": 62,
+            "a_id": 24,
+            "l_id": 71,
+            "h_pts": 6.0,
+            "h_gd": 0.2,
+            "a_pts": 5.0,
+            "a_gd": -0.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.61,
+            3.8,
+            5.5
+        ],
+        "meta": "Corinthians vs Atletico Paranaense (2024-10-17)"
+    },
+    {
+        "features": {
+            "h_id": 22,
+            "a_id": 68,
+            "l_id": 71,
+            "h_pts": 4.0,
+            "h_gd": -1.6,
+            "a_pts": 3.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            2.05,
+            3.2,
+            3.8
+        ],
+        "meta": "Atletico Goianiense vs Cuiaba (2024-10-18)"
+    },
+    {
+        "features": {
+            "h_id": 45,
+            "a_id": 65,
+            "l_id": 71,
+            "h_pts": 8.0,
+            "h_gd": 1.0,
+            "a_pts": 4.0,
+            "a_gd": -0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.33,
+            5.0,
+            9.0
+        ],
+        "meta": "Botafogo vs Criciuma (2024-10-18)"
+    },
+    {
+        "features": {
+            "h_id": 66,
+            "a_id": 29,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": 0.0,
+            "a_pts": 7.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.91,
+            3.4,
+            4.0
+        ],
+        "meta": "Cruzeiro vs Bahia (2024-10-19)"
+    },
+    {
+        "features": {
+            "h_id": 128,
+            "a_id": 115,
+            "l_id": 71,
+            "h_pts": 13.0,
+            "h_gd": 1.4,
+            "a_pts": 10.0,
+            "a_gd": 0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.8,
+            3.5,
+            4.33
+        ],
+        "meta": "Internacional vs Gremio (2024-10-19)"
+    },
+    {
+        "features": {
+            "h_id": 254,
+            "a_id": 193,
+            "l_id": 71,
+            "h_pts": 8.0,
+            "h_gd": 0.0,
+            "a_pts": 3.0,
+            "a_gd": -0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.17,
+            3.32,
+            3.44
+        ],
+        "meta": "Vitoria vs RB Bragantino (2024-10-19)"
+    },
+    {
+        "features": {
+            "h_id": 131,
+            "a_id": 182,
+            "l_id": 71,
+            "h_pts": 9.0,
+            "h_gd": 0.0,
+            "a_pts": 11.0,
+            "a_gd": 1.8,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            4.5,
+            3.6,
+            1.73
+        ],
+        "meta": "Juventude vs Palmeiras (2024-10-20)"
+    },
+    {
+        "features": {
+            "h_id": 104,
+            "a_id": 24,
+            "l_id": 71,
+            "h_pts": 5.0,
+            "h_gd": 0.0,
+            "a_pts": 4.0,
+            "a_gd": -1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.89,
+            3.28,
+            4.2
+        ],
+        "meta": "Fluminense vs Atletico Paranaense (2024-10-22)"
+    },
+    {
+        "features": {
+            "h_id": 182,
+            "a_id": 105,
+            "l_id": 71,
+            "h_pts": 11.0,
+            "h_gd": 1.8,
+            "a_pts": 9.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.36,
+            4.5,
+            8.5
+        ],
+        "meta": "Palmeiras vs Fortaleza EC (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 102,
+            "a_id": 131,
+            "l_id": 71,
+            "h_pts": 5.0,
+            "h_gd": 0.0,
+            "a_pts": 7.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.33,
+            5.0,
+            9.0
+        ],
+        "meta": "Flamengo vs Juventude (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 115,
+            "a_id": 22,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": -0.2,
+            "a_pts": 4.0,
+            "a_gd": -1.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            1.5,
+            4.33,
+            6.0
+        ],
+        "meta": "Gremio vs Atletico Goianiense (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 254,
+            "a_id": 104,
+            "l_id": 71,
+            "h_pts": 10.0,
+            "h_gd": 0.4,
+            "a_pts": 8.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.6,
+            2.88,
+            3.0
+        ],
+        "meta": "Vitoria vs Fluminense (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 24,
+            "a_id": 66,
+            "l_id": 71,
+            "h_pts": 4.0,
+            "h_gd": -1.2,
+            "a_pts": 4.0,
+            "a_gd": -0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.1,
+            3.2,
+            3.6
+        ],
+        "meta": "Atletico Paranaense vs Cruzeiro (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 193,
+            "a_id": 45,
+            "l_id": 71,
+            "h_pts": 3.0,
+            "h_gd": -0.8,
+            "a_pts": 5.0,
+            "a_gd": 0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            3.5,
+            3.4,
+            2.05
+        ],
+        "meta": "RB Bragantino vs Botafogo (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 25,
+            "a_id": 128,
+            "l_id": 71,
+            "h_pts": 9.0,
+            "h_gd": 0.6,
+            "a_pts": 13.0,
+            "a_gd": 1.0,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            3.4,
+            3.0,
+            2.3
+        ],
+        "meta": "Atletico-MG vs Internacional (2024-10-26)"
+    },
+    {
+        "features": {
+            "h_id": 65,
+            "a_id": 212,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": 0.4,
+            "a_pts": 8.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            3.0,
+            3.0,
+            2.5
+        ],
+        "meta": "Criciuma vs Sao Paulo (2024-10-27)"
+    },
+    {
+        "features": {
+            "h_id": 68,
+            "a_id": 62,
+            "l_id": 71,
+            "h_pts": 6.0,
+            "h_gd": 0.0,
+            "a_pts": 6.0,
+            "a_gd": 0.6,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 2,
+        "odds": [
+            3.4,
+            3.0,
+            2.15
+        ],
+        "meta": "Cuiaba vs Corinthians (2024-10-28)"
+    },
+    {
+        "features": {
+            "h_id": 248,
+            "a_id": 29,
+            "l_id": 71,
+            "h_pts": 7.0,
+            "h_gd": -0.6,
+            "a_pts": 10.0,
+            "a_gd": -0.2,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 0,
+        "odds": [
+            2.75,
+            3.2,
+            2.6
+        ],
+        "meta": "Vasco DA Gama vs Bahia (2024-10-29)"
+    },
+    {
+        "features": {
+            "h_id": 128,
+            "a_id": 102,
+            "l_id": 71,
+            "h_pts": 13.0,
+            "h_gd": 1.0,
+            "a_pts": 8.0,
+            "a_gd": 0.4,
+            "h_imp": 0.5,
+            "a_imp": 0.5
+        },
+        "label": 1,
+        "odds": [
+            1.83,
+            3.4,
+            4.33
+        ],
+        "meta": "Internacional vs Flamengo (2024-10-30)"
+    }
+]

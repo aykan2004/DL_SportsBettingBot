@@ -1,0 +1,155 @@
+{
+  "offline": {
+    "n_test": 849,
+    "logloss": {
+      "deep": 1.039239525794983,
+      "poisson": 1.1093525167918752,
+      "prior": 1.0686460746734192
+    },
+    "brier": {
+      "deep": 0.6242652596372494,
+      "poisson": 0.609084837949813
+    },
+    "accuracy": {
+      "deep": 0.4758539458186101,
+      "poisson": 0.5123674911660777
+    },
+    "diff_logloss_deep_minus_poisson": {
+      "mean_diff": -0.07011293771076112,
+      "ci95": [
+        -0.15392380038628184,
+        0.004561858727421739
+      ],
+      "p_boot_two_sided": 0.0718,
+      "n": 849
+    },
+    "diff_logloss_deep_minus_prior": {
+      "mean_diff": -0.029406495592305227,
+      "ci95": [
+        -0.0443739328527194,
+        -0.01428477818910051
+      ],
+      "p_boot_two_sided": 0.0004,
+      "n": 849
+    },
+    "diff_logloss_poisson_minus_prior": {
+      "mean_diff": 0.04070644211845591,
+      "ci95": [
+        -0.03457796809269483,
+        0.12548008612139505
+      ],
+      "p_boot_two_sided": 0.317,
+      "n": 849
+    },
+    "diff_brier_deep_minus_poisson": {
+      "mean_diff": 0.015180421687436272,
+      "ci95": [
+        -0.008695160351528166,
+        0.038799984311193456
+      ],
+      "p_boot_two_sided": 0.21,
+      "n": 849
+    },
+    "temperature": 0.9219874739646912
+  },
+  "live_v1": {
+    "settled": 162,
+    "wins": 44,
+    "hit_rate": 0.2716049382716049,
+    "avg_odds": 4.6947800910297826,
+    "avg_claimed_prob": 0.49763974801993666,
+    "roi": -0.18342092431055967,
+    "roi_ci95": [
+      -0.3944143859891384,
+      0.03321787276689461
+    ],
+    "expected_wins_under_model_claims": 80.61763917922974,
+    "z_vs_own_claims": -6.073608239664631,
+    "p_vs_own_claims": 1.250676298029728e-09,
+    "expected_wins_under_break_even": 50.90160679826708,
+    "z_vs_break_even": -1.225207237457723,
+    "p_vs_break_even": 0.22049714827096595,
+    "buckets": [
+      {
+        "range": "20%-30%",
+        "n": 21,
+        "claimed": 0.278984371366955,
+        "realized": 0.23809523809523808,
+        "wilson95": [
+          0.106,
+          0.451
+        ],
+        "claim_inside_ci": true
+      },
+      {
+        "range": "30%-40%",
+        "n": 34,
+        "claimed": 0.3454702405368581,
+        "realized": 0.14705882352941177,
+        "wilson95": [
+          0.064,
+          0.301
+        ],
+        "claim_inside_ci": false
+      },
+      {
+        "range": "40%-50%",
+        "n": 27,
+        "claimed": 0.441393726490162,
+        "realized": 0.1111111111111111,
+        "wilson95": [
+          0.039,
+          0.281
+        ],
+        "claim_inside_ci": false
+      },
+      {
+        "range": "50%-60%",
+        "n": 28,
+        "claimed": 0.5461840166364398,
+        "realized": 0.2857142857142857,
+        "wilson95": [
+          0.153,
+          0.471
+        ],
+        "claim_inside_ci": false
+      },
+      {
+        "range": "60%-70%",
+        "n": 34,
+        "claimed": 0.6499198644301469,
+        "realized": 0.4117647058823529,
+        "wilson95": [
+          0.264,
+          0.578
+        ],
+        "claim_inside_ci": false
+      },
+      {
+        "range": "70%-80%",
+        "n": 15,
+        "claimed": 0.7381209513346353,
+        "realized": 0.4666666666666667,
+        "wilson95": [
+          0.248,
+          0.699
+        ],
+        "claim_inside_ci": false
+      }
+    ]
+  },
+  "market": {
+    "n_test": 29,
+    "model_logloss": 1.1087377071380615,
+    "market_logloss": 1.0254636788374052,
+    "diff_model_minus_market": {
+      "mean_diff": 0.08327399747066763,
+      "ci95": [
+        -0.04462509875143832,
+        0.21153723101319402
+      ],
+      "p_boot_two_sided": 0.1972,
+      "n": 29
+    }
+  }
+}

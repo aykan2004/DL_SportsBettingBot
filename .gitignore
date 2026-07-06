@@ -1,0 +1,23 @@
+# Secrets — never commit API keys
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Runtime artifacts
+cron_log.txt
+reports/*.png
+
+# Large/derived artifacts stay out of git; see README for how to rebuild them.
+# (Trained weights and the paper-trading ledger are intentionally tracked.)

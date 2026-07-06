@@ -1,0 +1,6 @@
+torch>=2.0
+pandas>=2.0
+numpy>=1.26
+requests>=2.31
+python-dotenv>=1.0
+matplotlib>=3.8
